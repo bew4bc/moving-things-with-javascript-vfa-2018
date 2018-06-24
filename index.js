@@ -18,7 +18,7 @@ function moveDodgerRight() {
   var right = gameWidth-left-parseInt(dodger.style.width,10)
  
   if (right > 0) {
-    dodger.style.left = `${left - 1}px`
+    dodger.style.left = `${left + 1}px`
   }
 }
 
